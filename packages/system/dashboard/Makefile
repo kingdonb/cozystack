@@ -28,21 +28,21 @@ update-dockerfiles:
 image-dashboard:
 	docker buildx build images/dashboard \
 		--provenance false \
-		--tag $(REGISTRY)/dashboard:$(call settag,$(TAG)) \
-		--cache-from type=registry,ref=$(REGISTRY)/dashboard:latest \
+		--tag $(REGISTRY)/cozystack-dashboard:$(call settag,$(TAG)) \
+		--cache-from type=registry,ref=$(REGISTRY)/cozystack-dashboard:latest \
 		--cache-to type=inline \
 		--metadata-file images/dashboard.json \
 		--push=$(PUSH) \
 		--load=$(LOAD)
-	echo "$(REGISTRY)/dashboard:$(call settag,$(TAG))" > images/dashboard.tag
+	echo "$(REGISTRY)/cozystack-dashboard:$(call settag,$(TAG))" > images/dashboard.tag
 
 image-kubeapps-apis:
 	docker buildx build images/kubeapps-apis \
 		--provenance false \
-		--tag $(REGISTRY)/kubeapps-apis:$(call settag,$(TAG)) \
-		--cache-from type=registry,ref=$(REGISTRY)/kubeapps-apis:latest \
+		--tag $(REGISTRY)/cozystack-kubeapps-apis:$(call settag,$(TAG)) \
+		--cache-from type=registry,ref=$(REGISTRY)/cozystack-kubeapps-apis:latest \
 		--cache-to type=inline \
 		--metadata-file images/kubeapps-apis.json \
 		--push=$(PUSH) \
 		--load=$(LOAD)
-	echo "$(REGISTRY)/kubeapps-apis:$(call settag,$(TAG))" > images/kubeapps-apis.tag
+	echo "$(REGISTRY)/cozystack-kubeapps-apis:$(call settag,$(TAG))" > images/kubeapps-apis.tag
