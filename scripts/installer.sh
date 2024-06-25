@@ -3,7 +3,7 @@ set -o pipefail
 set -e
 
 BUNDLE=$(set -x; kubectl get configmap -n cozy-system cozystack -o 'go-template={{index .data "bundle-name"}}')
-VERSION=4
+VERSION=5
 
 run_migrations() {
   if ! kubectl get configmap -n cozy-system cozystack-version; then
@@ -48,6 +48,7 @@ install_basic_charts() {
   if [ "$BUNDLE" = "paas-full" ]; then
     make -C packages/system/kubeovn apply resume
   fi
+  make -C packages/system/fluxcd apply
 }
 
 cd "$(dirname "$0")/.."
