@@ -41,6 +41,4 @@ spec:
   {{- end }}
   - name: {{ .Release.Name }}-cilium
     namespace: {{ .Release.Namespace }}
-  - name: {{ .Release.Name }}-cert-manager
-    namespace: {{ .Release.Namespace }}
 {{- end }}
