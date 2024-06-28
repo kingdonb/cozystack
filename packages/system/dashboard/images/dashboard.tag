@@ -1,1 +1,1 @@
-kingdonb/cozystack-dashboard:0.1.27
+kingdonb/cozystack-dashboard:0.1.32
