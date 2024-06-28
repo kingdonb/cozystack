@@ -35,7 +35,7 @@
       }
     }
   },
-  "buildx.build.ref": "my-builder/my-builder0/e789kqm1g3wp3clddqrcs2tzd",
+  "buildx.build.ref": "my-builder/my-builder0/yy42nv82kvxgzeznxe9i0pp2x",
   "containerimage.config.digest": "sha256:186f7affcd6bb56b9c4d3869a0127b5f1c6e68e9201abcb1ec4afcdd4432230f",
   "containerimage.descriptor": {
     "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
@@ -47,5 +47,5 @@
     }
   },
   "containerimage.digest": "sha256:866d4ad26d09e5dc3fe9d014fd4c3c2a8414f339f12011e728a9e0a19aa7d6b3",
-  "image.name": "kingdonb/cozystack-dashboard:0.1.26"
+  "image.name": "kingdonb/cozystack-dashboard:0.1.32"
 }
