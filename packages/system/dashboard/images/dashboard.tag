@@ -1,1 +1,1 @@
-ghcr.io/aenix-io/cozystack/dashboard:v0.7.0
+kingdonb/cozystack-dashboard:0.1.27
