@@ -1,1 +1,1 @@
-kingdonb/cozystack:0.1.32
+kingdonb/cozystack:0.1.33
