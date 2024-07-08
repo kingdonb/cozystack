@@ -41,17 +41,17 @@
       }
     }
   },
-  "buildx.build.ref": "my-builder/my-builder0/ks9qp7bqntylo6bfj9irdiofi",
-  "containerimage.config.digest": "sha256:1ba3eedf948a26c2d7411551b38be7ed8d3c76ffad6e90ed8620017967d24935",
+  "buildx.build.ref": "my-builder/my-builder0/toagu3jcyfez3b3b1fkhe9vuh",
+  "containerimage.config.digest": "sha256:1a6b7b7acae0afa8bde3e556880abdb07b99a3db0ce849d38c0ae25a364cea36",
   "containerimage.descriptor": {
     "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
-    "digest": "sha256:16eb23baea0d74b23e8646cdbbb9700eef092b8e0262d7268657bab2ee9036e6",
+    "digest": "sha256:2028c6c36138c40fe5d8eb6a0530d5783dc07c26813fc7e6315d29c4fe8a8ae8",
     "size": 1890,
     "platform": {
       "architecture": "amd64",
       "os": "linux"
     }
   },
-  "containerimage.digest": "sha256:16eb23baea0d74b23e8646cdbbb9700eef092b8e0262d7268657bab2ee9036e6",
-  "image.name": "kingdonb/cozystack-kubeapps-apis:0.1.32"
+  "containerimage.digest": "sha256:2028c6c36138c40fe5d8eb6a0530d5783dc07c26813fc7e6315d29c4fe8a8ae8",
+  "image.name": "kingdonb/cozystack-kubeapps-apis:0.2.0"
 }

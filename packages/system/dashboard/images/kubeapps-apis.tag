@@ -1,1 +1,1 @@
-kingdonb/cozystack-kubeapps-apis:0.1.32
+kingdonb/cozystack-kubeapps-apis:0.2.0
