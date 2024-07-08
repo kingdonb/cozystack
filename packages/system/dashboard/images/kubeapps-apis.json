@@ -41,17 +41,17 @@
       }
     }
   },
-  "buildx.build.ref": "priceless_leavitt/priceless_leavitt0/ggf28zo7pywc734xde1oado8l",
-  "containerimage.config.digest": "sha256:62c4a42cb62f918a2e4bb295f6faaceb96a2dae7fb8cf4bd6850bc072064b4ce",
+  "buildx.build.ref": "my-builder/my-builder0/toagu3jcyfez3b3b1fkhe9vuh",
+  "containerimage.config.digest": "sha256:1a6b7b7acae0afa8bde3e556880abdb07b99a3db0ce849d38c0ae25a364cea36",
   "containerimage.descriptor": {
     "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
-    "digest": "sha256:a5eab0f2a900ac1963b24bbdbe35bffbee7ba146c86742d6e8bea8c070610d9c",
+    "digest": "sha256:2028c6c36138c40fe5d8eb6a0530d5783dc07c26813fc7e6315d29c4fe8a8ae8",
     "size": 1890,
     "platform": {
       "architecture": "amd64",
       "os": "linux"
     }
   },
-  "containerimage.digest": "sha256:a5eab0f2a900ac1963b24bbdbe35bffbee7ba146c86742d6e8bea8c070610d9c",
-  "image.name": "ghcr.io/aenix-io/cozystack/kubeapps-apis:v0.8.0"
+  "containerimage.digest": "sha256:2028c6c36138c40fe5d8eb6a0530d5783dc07c26813fc7e6315d29c4fe8a8ae8",
+  "image.name": "kingdonb/cozystack-kubeapps-apis:0.2.0"
 }
