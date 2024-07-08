@@ -1,10 +1,10 @@
 {
-  "buildx.build.ref": "my-builder/my-builder0/e7clewn9hoc02l6o946y85bdy",
+  "buildx.build.ref": "my-builder/my-builder0/3qryvsbw0ybpyqytc2t3c4rro",
   "containerimage.descriptor": {
     "mediaType": "application/vnd.docker.distribution.manifest.list.v2+json",
-    "digest": "sha256:a836c8a7a69894441be831b5ccdff816dbb5ab2292c2e850717f810657565063",
+    "digest": "sha256:1b072d71b175adc87776831c7a7cabf0d34e6eebbd798d3581f0ef2b88478963",
     "size": 685
   },
-  "containerimage.digest": "sha256:a836c8a7a69894441be831b5ccdff816dbb5ab2292c2e850717f810657565063",
-  "image.name": "kingdonb/cozystack:0.2.0"
+  "containerimage.digest": "sha256:1b072d71b175adc87776831c7a7cabf0d34e6eebbd798d3581f0ef2b88478963",
+  "image.name": "kingdonb/cozystack:0.2.1"
 }
