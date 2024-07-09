@@ -2,11 +2,11 @@ apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
 metadata:
   annotations:
-  name: letsencrypt-prod
+  name: letsencrypt-mine
 spec:
   acme:
     privateKeySecretRef:
-      name: letsencrypt-prod
+      name: letsencrypt-mine
     server: https://acme-v02.api.letsencrypt.org/directory
     solvers:
     - http01:
@@ -16,11 +16,11 @@ spec:
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
 metadata:
-  name: letsencrypt-stage
+  name: letsencrypt-ours
 spec:
   acme:
     privateKeySecretRef:
-      name: letsencrypt-stage
+      name: letsencrypt-ours
     server: https://acme-staging-v02.api.letsencrypt.org/directory
     solvers:
     - http01:

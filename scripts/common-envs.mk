@@ -1,4 +1,4 @@
-REGISTRY := ghcr.io/aenix-io/cozystack
+REGISTRY := kingdonb
 PUSH := 1
 LOAD := 0
 VERSION = $(patsubst v%,%,$(shell git describe --tags --abbrev=0))
