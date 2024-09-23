@@ -49,6 +49,7 @@ image-matchbox:
 		--provenance false \
 		--tag $(REGISTRY)/matchbox:$(call settag,$(TAG)) \
 		--tag $(REGISTRY)/matchbox:$(call settag,$(TALOS_VERSION)-$(TAG)) \
+		--platform linux/amd64 \
 		--cache-from type=registry,ref=$(REGISTRY)/matchbox:latest \
 		--cache-to type=inline \
 		--metadata-file images/matchbox.json \

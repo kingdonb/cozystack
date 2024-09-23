@@ -4,7 +4,7 @@ set -u
 
 PROFILES="initramfs kernel iso installer nocloud metal"
 FIRMWARES="amd-ucode amdgpu-firmware bnx2-bnx2x i915-ucode intel-ice-firmware intel-ucode qlogic-firmware"
-EXTENSIONS="drbd zfs"
+EXTENSIONS="drbd zfs spin tailscale"
 
 mkdir -p images/talos/profiles
 
@@ -85,6 +85,8 @@ input:
     - imageRef: ghcr.io/siderolabs/qlogic-firmware:${QLOGIC_FIRMWARE_VERSION}
     - imageRef: ghcr.io/siderolabs/drbd:${DRBD_VERSION}
     - imageRef: ghcr.io/siderolabs/zfs:${ZFS_VERSION}
+    - imageRef: ghcr.io/siderolabs/spin:${SPIN_VERSION}
+    - imageRef: ghcr.io/siderolabs/tailscale:${TAILSCALE_VERSION}
 output:
   kind: ${kind}
   imageOptions: ${image_options}
