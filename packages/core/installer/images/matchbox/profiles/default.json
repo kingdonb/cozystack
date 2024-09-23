@@ -12,7 +12,8 @@
       "console=tty0",
       "console=ttyS0",
       "printk.devkmsg=on",
-      "talos.platform=metal"
+      "talos.platform=metal",
+      "kexec_load_disabled=1"
     ]
   }
 }
