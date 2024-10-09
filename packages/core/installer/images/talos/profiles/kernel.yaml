@@ -22,7 +22,6 @@ input:
     - imageRef: ghcr.io/siderolabs/drbd:9.2.12-v1.9.1
     - imageRef: ghcr.io/siderolabs/zfs:2.2.7-v1.9.1
     - imageRef: ghcr.io/siderolabs/spin:v0.17.0
-    - imageRef: ghcr.io/siderolabs/tailscale:1.78.1
 output:
   kind: kernel
   imageOptions: {}
