@@ -15,10 +15,12 @@ input:
     - imageRef: ghcr.io/siderolabs/amd-ucode:20250509
     - imageRef: ghcr.io/siderolabs/bnx2-bnx2x:20250509
     - imageRef: ghcr.io/siderolabs/intel-ice-firmware:20250509
-    - imageRef: ghcr.io/siderolabs/intel-ucode:20250211
+    - imageRef: ghcr.io/siderolabs/intel-ucode:20250512
     - imageRef: ghcr.io/siderolabs/qlogic-firmware:20250509
     - imageRef: ghcr.io/siderolabs/drbd:9.2.13-v1.10.3
     - imageRef: ghcr.io/siderolabs/zfs:2.3.2-v1.10.3
+    - imageRef: ghcr.io/siderolabs/spin:v0.19.0
+    - imageRef: ghcr.io/siderolabs/tailscale:1.84.0
 output:
   kind: initramfs
   imageOptions: {}
