@@ -22,7 +22,6 @@ input:
     - imageRef: ghcr.io/siderolabs/drbd:9.2.11-v1.8.3
     - imageRef: ghcr.io/siderolabs/zfs:2.2.6-v1.8.3
     - imageRef: ghcr.io/siderolabs/spin:v0.15.1
-    - imageRef: ghcr.io/siderolabs/tailscale:1.72.1
 output:
   kind: iso
   imageOptions: {}
