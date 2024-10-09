@@ -31,7 +31,7 @@ for extension in $EXTENSIONS; do
 done
 
 SPIN_VERSION="v0.15.1"
-TAILSCALE_VERSION="v1.72.1"
+TAILSCALE_VERSION="1.72.1"
 
 for profile in $PROFILES; do
   echo "writing profile images/talos/profiles/$profile.yaml"
