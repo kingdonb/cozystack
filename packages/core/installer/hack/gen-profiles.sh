@@ -30,7 +30,7 @@ for extension in $EXTENSIONS; do
   export "$extension_var=$version"
 done
 
-SPIN_VERSION="v0.15.1"
+SPIN_VERSION="v0.16.0"
 # TAILSCALE_VERSION="1.72.1"
 
 for profile in $PROFILES; do
