@@ -1,4 +1,4 @@
-REGISTRY := ghcr.io/cozystack/cozystack
+REGISTRY := kingdonb
 PUSH := 1
 LOAD := 0
 COZYSTACK_VERSION = $(patsubst v%,%,$(shell git describe --tags))
