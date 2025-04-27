@@ -5,7 +5,7 @@ set -u
 TMPDIR=$(mktemp -d)
 PROFILES="initramfs kernel iso installer nocloud metal"
 FIRMWARES="amd-ucode amdgpu bnx2-bnx2x i915 intel-ice-firmware intel-ucode qlogic-firmware"
-EXTENSIONS="drbd zfs spin tailscale"
+EXTENSIONS="drbd zfs spin"
 
 mkdir -p images/talos/profiles
 
@@ -91,7 +91,6 @@ input:
     - imageRef: ${DRBD_IMAGE}
     - imageRef: ${ZFS_IMAGE}
     - imageRef: ${SPIN_IMAGE}
-    - imageRef: ${TAILSCALE_IMAGE}
 output:
   kind: ${kind}
   imageOptions: ${image_options}

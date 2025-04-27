@@ -22,7 +22,6 @@ input:
     - imageRef: ghcr.io/siderolabs/drbd:9.2.14-v1.11.5@sha256:bd7eb63f1ade1a7e79b74bc5fe4672d22a343dfbd5632c652d0875b39dd909f9
     - imageRef: ghcr.io/siderolabs/zfs:2.3.3-v1.11.5@sha256:fc75017f2ec2404bacb1bd4743bc29d682fe8b18b71e16b2554b37b7cec8e5d8
     - imageRef: ghcr.io/siderolabs/spin:v0.21.0@sha256:720f9d81d99794c190ad0d45621e07c9f8afa27e2c5e4d612917a680440853b0
-    - imageRef: ghcr.io/siderolabs/tailscale:1.88.1@sha256:1f078fb2532876ede0602a34cd2beb75e24bb71da50770d412ec41bf89f08144
 output:
   kind: kernel
   imageOptions: {}
