@@ -20,7 +20,7 @@ input:
     - imageRef: ghcr.io/siderolabs/drbd:9.2.13-v1.10.3
     - imageRef: ghcr.io/siderolabs/zfs:2.3.2-v1.10.3
     - imageRef: ghcr.io/siderolabs/spin:v0.19.0
-    - imageRef: ghcr.io/siderolabs/tailscale:1.82.0
+    - imageRef: ghcr.io/siderolabs/tailscale:1.84.0
 output:
   kind: image
   imageOptions: { diskSize: 1306525696, diskFormat: raw }
